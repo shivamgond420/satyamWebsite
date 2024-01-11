@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.imagesat{
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    background-image: url("https://i.ibb.co/4JF1V86/download-image-1704982347240.png");
+    background-size: cover; /* or use 'contain' based on your design preference */
+    height: 400px; /* Adjust the height as needed */
+     /* Adjust the width as needed */
+    background-position: center;
+    object-fit: cover;
+    
 }
+.imagesat1{
+    box-shadow: inset 0 3px 12px 17px rgba(0, 0, 0, 0.705);
+}
+/* <a href="https://ibb.co/LdbBHNL"><img src="https://i.ibb.co/9HzBSZF/download-image-1704983885424.png" alt="download-image-1704983885424" border="0" /></a> */
+
+/* <a href="https://ibb.co/HXKhHtW"><img src="https://i.ibb.co/4JF1V86/download-image-1704982347240.png" alt="download-image-1704982347240" border="0" /></a> */
